@@ -1,0 +1,48 @@
+.shopisfun {
+  max-width: 100%;
+  height: 100vh;
+  display: flex;
+  background: rgb(9,9,121);
+background: linear-gradient(90deg, rgba(9,9,121,1) 35%, rgba(2,0,36,1) 35%, rgba(242,242,249,1) 35%, rgba(251,254,255,1) 100%);
+  .shopisfun_text_img {
+    width: 60%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    .shopisfun_img {
+      width: 50%;
+      height: 80vh;
+      .img {
+        background-image: url("https://preview.colorlib.com/theme/aroma/img/home/hero-banner.png.webp");
+        background-size: cover;
+        width: 100%;
+        height: 80vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        justify-content: center;
+      }
+    }
+    .shopisfun_text {
+      width: 40%;
+      height: 20vh;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      h5{
+    font-size: 40px;
+      }
+      p{
+        color: gray;
+      }
+      button{
+        width: 150px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: rgb(59, 15, 131);
+        color: white;
+      }
+    }
+  }
+}

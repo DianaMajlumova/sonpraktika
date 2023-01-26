@@ -1,0 +1,55 @@
+.trending_product_section {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  .trending_product_section_text_img {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    .trending_product_section_text {
+      p {
+        color: red($color: #000000);
+      }
+      h5 {
+        color: aqua;
+      }
+    }
+    .trending_cards {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: space-around;
+      .trending_card {
+        width: 25%;
+        margin-bottom: 20px;
+        h4 {
+          font-size: 20px;
+        }
+        h1 {
+          font-size: 20px;
+        }
+        .buttons {
+          width: 40px;
+          display: flex;
+          flex-direction: column;
+          button {
+            margin-bottom: 10px;
+            width: 100px;
+            height: 25px;
+            border-radius: 20px;
+            border: 1px gray solid;
+            cursor: pointer;
+            &:hover{
+                border:2px orange solid;
+                background-color: rgb(218, 198, 161);
+            }
+          }
+        }
+      }
+    }
+  }
+}
